@@ -1,0 +1,25 @@
+#say-hello {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#say-hello h1 {
+    text-transform: uppercase;
+    color: rgb(0, 140, 255);
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.contactForm {
+    background-color: #FFC107;
+    height: 70vh;
+}
+
+.contactDetails {
+    text-align: right;
+    /* background-color: lime; */
+    border: 10px double #FFC107;
+}

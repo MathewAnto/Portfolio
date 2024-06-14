@@ -1,0 +1,10 @@
+#tech-skills {
+    height: 100vh;
+}
+
+#tech-skills h1 {
+    text-transform: uppercase;
+    color: rgb(0, 140, 255);
+    margin: 0;
+    padding-top: 1rem;
+}

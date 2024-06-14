@@ -1,0 +1,37 @@
+/* .resumePage {
+    background-color: #979797;
+} */
+
+.resume {
+    background-color: rgb(0, 140, 255);
+    width: 892.5px; /* 595px */
+    height: 1263px; /* 842px */
+}
+
+#resumeTitle {
+    text-transform: uppercase;
+    color: rgb(0, 140, 255);
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.titleContent {
+    text-transform: uppercase;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#firstName {
+    
+}
+
+.connect {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
