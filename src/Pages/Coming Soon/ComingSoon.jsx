@@ -32,10 +32,8 @@ export const ComingSoon = () => {
                 </Container>
             </Navbar>
             <div className='csPage-Content'>
-                {/* <div className='csPage-Content-bg'> */}
                     <h1 className='coming'>Coming</h1>
                     <h1 id='soon' className='soon'>Soon!</h1>
-                {/* </div> */}
             </div>
 
             <footer className="d-flex justify-content-center pt-3 mt-4 border-top">
