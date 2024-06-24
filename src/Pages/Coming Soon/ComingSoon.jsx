@@ -8,16 +8,16 @@ export const ComingSoon = () => {
     useEffect(() => {
         // Slide in animation for "Coming" text
         gsap.fromTo(
-            ".coming",
+            "#coming",
             { x: -100, opacity: 0 },
             { x: 0, opacity: 1, duration: 3, ease: "power4.out" }
         );
 
         // Rotate animation for "Soon!" text
-        gsap.to(".soon", {
+        gsap.to("#soon", {
             rotationY: 360,
             color: "#FFC107", // Change to blue during rotation
-            duration: 7,
+            duration: 5,
             repeat: 0, // Repeat infinitely -1
             ease: "power1.inOut", // Linear easing
             yoyo: true // Play forwards and then backwards smoothly
@@ -32,12 +32,12 @@ export const ComingSoon = () => {
                 </Container>
             </Navbar>
             <div className='csPage-Content'>
-                    <h1 className='coming'>Coming</h1>
-                    <h1 id='soon' className='soon'>Soon!</h1>
+                    <h1 id='coming'>Coming</h1>
+                    <h1 id='soon'>Soon!</h1>
             </div>
 
             <footer className="d-flex justify-content-center pt-3 mt-4 border-top">
-                <p className="text-center text-body-secondary footer-name">2024 © <span>MATHEW'S PORTFOLIO</span> By Mathew Anto</p>
+                <p className="text-center text-body-secondary footer-content">2024 © <span>MATHEW'S PORTFOLIO</span> By Mathew Anto</p>
             </footer>
         </div>
     );

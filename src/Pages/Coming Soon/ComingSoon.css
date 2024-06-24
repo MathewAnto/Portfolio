@@ -30,14 +30,10 @@
     margin-right: 0.7rem;
 }
 
-.csPage-Content  h2 {
-    color: #979797; 
-}
-
 #soon {
     color: #979797; 
 }
 
-.footer-name span {
+.footer-content span {
     color: rgb(0, 140, 255);
 }
